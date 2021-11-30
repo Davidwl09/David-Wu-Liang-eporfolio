@@ -1,19 +1,25 @@
+body {background-image: url(Images/BG.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;}
 h1{color: white;}
-h1 {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight: 600;
-font-size: 60}
-
+h1{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: 600;font-size: 60}
 h2{color: blue;}
 p {font-family: courier;
 font-weight: 600;
 font-size: 20; color: azure; text-align: center}
-a {text-decoration: none}
-a {color: white;}
 
-    
-body {background-color: cornflowerblue;}
 
-body 
+
+ a:link, a:visited {
+      background-color:rgb(2, 51, 82);
+      color: white;
+      margin-left: 20px;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none    
+  }
+
 
 
 
