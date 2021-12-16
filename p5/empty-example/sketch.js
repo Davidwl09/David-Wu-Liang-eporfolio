@@ -3,7 +3,7 @@ let t, v, u;
 var textx=0;
 function setup() {
   // put setup code here
-    createCanvas(1530, 740);
+    createCanvas(1910, 915);
    x = width/0;
   y = height/8;
   
@@ -42,7 +42,7 @@ function draw() {
   }
     }
           //Repeat
-  if (textx > 1900){     
+  if (textx > 2300){     
      textx = -125;   
   }else{     
      textx=textx + 5;   
@@ -53,7 +53,7 @@ function draw() {
   fill(204,204,204,150);
   if (mouseIsPressed) {
     if (mouseButton === LEFT) {
-      triangle(x+187, y+140, x+50, y+720, x+350, y+720);
+      triangle(x+187, y+140, x+50, y+820, x+350, y+820);
     }
   }
 
@@ -95,7 +95,7 @@ function draw() {
   x = x + 5;
 
   //repeat
-  if (x > 1530) {
+  if (x > 1930) {
     x = -500;
   }
 
@@ -108,7 +108,8 @@ function draw() {
 
 // Click to change color
 function mousePressed() {
-  // revisar si el ratón está dentro del círculo
+
+    
   let d = dist(360, 200, 360, 200);
   if (d < 10) {
     // Random color
